@@ -97,8 +97,8 @@ def main():
     best_model_name = predictor.best_model_name
     best_results = predictor.results[best_model_name]
     
-    print(f"\n🏆 Best Model: {best_model_name}")
-    print(f"\n📈 Performance Metrics:")
+    print(f"\n Best Model: {best_model_name}")
+    print(f"\n Performance Metrics:")
     print(f"  - Test R² Score: {best_results['test_r2']:.4f}")
     print(f"  - Test RMSE: ₹{best_results['test_rmse']:,.2f}")
     print(f"  - Test MAE: ₹{best_results['test_mae']:,.2f}")
