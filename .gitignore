@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Datasets
+data/*.xlsx
+
+# Trained models
+models/*.pkl
+
+# Generated outputs
+results/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
